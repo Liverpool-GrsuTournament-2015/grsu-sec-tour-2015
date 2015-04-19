@@ -11,12 +11,8 @@ namespace Problem1
         public static char[] _alfa = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
         public static void Main(string[] args)
         {
-            int nTests = int.Parse(Console.ReadLine());
-            for (int i = 0; i < nTests; i++)
-            {
                 string input = Console.ReadLine();
                 Console.WriteLine(DeCrypt(input, 1));
-            }
         }
         public static string DeCrypt(string input, int key)
         {
